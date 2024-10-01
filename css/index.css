@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#title{
+    
+    background-image: url(/images/nenlogo.jpg);
+    width: 100%;
+    padding: 0px 20px
+}
+.container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .logo {
+    display: flex;
+    align-items: center;
+}
+.container .logo img{
+    
+    max-width: 100px;
+    
+    padding: 0px 10px;
+}
+.container .logo span.hamberger{
+    padding: 0px 10px;
+    font-size: 25px;
+    font-family: Radio Canada Big    ;
+    color: rgba(255, 255, 255, 0.969);
+    font-weight: bold;
+    border-style: double;
+}
+.container .menu ul.menu{
+    display: flex;
+}
+.container .menu ul.menu li{
+    list-style: none;
+}
+.container .menu ul.menu li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 40px;
+    font-family: Radio Canada Big ;
+    font-size: 20px;
+}
